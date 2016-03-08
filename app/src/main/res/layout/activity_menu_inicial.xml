@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="3"  android:stretchColumns="3" android:background="#ff252526">
+
+    <!-- Row 2 with 3 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btAtividadesMenuPricipal" android:text="Cargas Disponiveis"
+            android:layout_weight="1"  android:background="@drawable/button_shape"
+            android:textColor="#fff6f6fa"  android:layout_height="fill_parent"
+            android:gravity="center" android:onClick="cargas"
+
+            />
+        <Button
+            android:id="@+id/btPedidosMenuPricipal" android:text="Reenviar Cargas"
+            android:layout_weight="1.5"  android:background="@drawable/button_shape_green"
+            android:textColor="#fff6f6fa" android:layout_height="fill_parent" android:onClick="reenviar"
+            android:gravity="center" />
+
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btOrcamento" android:text="Baixar Carga"
+            android:layout_weight="1"   android:background="@drawable/button_shape_yellow"
+            android:textColor="#fff6f6fa" android:layout_height="fill_parent"
+            android:gravity="center" android:onClick="bcargas"/>
+
+        <Button
+            android:id="@+id/btSincMenuPricipal" android:text="Configurações"
+            android:layout_weight="1.5" android:background="@drawable/button_shape_red"
+            android:textColor="#fff9f9f9" android:layout_height="fill_parent"
+            android:gravity="center" android:onClick="criarConfig"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="0">
+        <Button
+            android:id="@+id/sair" android:text="Sair"  android:drawableStart="@drawable/ic_action_back"
+            android:layout_weight="1"   android:background="@drawable/button_shape_black"
+            android:textColor="#fff6f6fa" android:layout_height="fill_parent"
+            android:gravity="center" android:onClick="sair" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>

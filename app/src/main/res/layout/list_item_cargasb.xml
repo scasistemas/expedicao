@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="10px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/txcarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carga: "
+
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/ifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+
+            android:textStyle="italic"
+
+            />
+        <TextView
+            android:id="@+id/carga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wrap_content"
+
+
+            />
+
+        <TextView
+            android:id="@+id/comboName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            >
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        >
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" data"
+            android:textColor="#2f6699"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/espaco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      "
+            android:textColor="#2f6699"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" hora"
+            android:textColor="#2f6699"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

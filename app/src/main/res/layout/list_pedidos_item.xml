@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="10px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/txproduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wrap_content"
+            android:textColor="#fffef9ff"
+            />
+
+        <TextView
+            android:id="@+id/txtcodproduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wrap_content"
+            android:textColor="#fffef9ff"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/txtnumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wrap_content"
+            android:textColor="#fffef9ff"
+            android:visibility="gone"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        >
+        <TextView
+            android:id="@+id/dig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dig."
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/txdig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AP"
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/un"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Un."
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="8dp"
+            />
+        <TextView
+            android:id="@+id/txun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CX"
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/est"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Est."
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="8dp"
+            />
+        <TextView
+            android:id="@+id/txest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/quantid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quant."
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="8dp"
+            />
+        <TextView
+            android:id="@+id/txquantid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:textColor="#fffef9ff"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/qtdhand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carreg."
+            android:textColor="#fffef9ff"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="8dp"
+            />
+        <TextView
+            android:id="@+id/txqtdhand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:textColor="#fffef9ff"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
